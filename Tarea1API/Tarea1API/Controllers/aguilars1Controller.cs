@@ -15,6 +15,7 @@ namespace Tarea1API.Controllers
     public class aguilars1Controller : ApiController
     {
         private DataContext db = new DataContext();
+
         [Authorize]
         // GET: api/aguilars1
         public IQueryable<aguilar> Getaguilars()
